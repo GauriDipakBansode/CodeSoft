@@ -63,25 +63,3 @@ def get_response(concept):
 
     last_concept = concept
     return response
-
-
-# Chat loop
-print("Chatbot: Hello! (Type 'bye' to exit)")
-
-while True:
-
-    #Take input from user
-    user_input = input("You: ")
-
-    #Detect user concept
-    concept = detect_concept(user_input)
-
-    #Generate appropriate response
-    response = get_response(concept)
-
-    #Display chatbot response
-    print("Chatbot:", response)
-
-    #Exit condition
-    if concept == "exit":
-        break
