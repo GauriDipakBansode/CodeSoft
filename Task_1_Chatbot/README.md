@@ -1,4 +1,4 @@
-# Rule-Based Chatbot using Flask and JavaScript  
+# Rule-Based Chatbot   
 ### CodeSoft Internship – Task 1
 
 ---
@@ -79,6 +79,8 @@ Task_1_Chatbot/
 ### Step 1: Clone the repository
 ```bash
 git clone <your-github-repo-link>
+### Step 2: Navigate to the project folder
+
 cd Task_1_Chatbot
 python -m venv venv
 venv\Scripts\activate
