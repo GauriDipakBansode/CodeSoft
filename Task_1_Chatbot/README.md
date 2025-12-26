@@ -58,7 +58,7 @@ Task_1_Chatbot/
 │
 └── README.md # Project documentation
 
-```md
+```
 
 
 ---
@@ -78,9 +78,8 @@ Task_1_Chatbot/
 
 ## How to Run the Project
 
-### Step 1: Clone the repository
 ```bash
-- git clone <your-github-repo-link>
+git clone <your-github-repo-link>
 cd Task_1_Chatbot
 python -m venv venv
 venv\Scripts\activate
