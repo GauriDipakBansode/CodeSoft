@@ -42,6 +42,7 @@ The project demonstrates the integration of:
 ---
 
 ## Project Structure
+```bash
 
 Task_1_Chatbot/
 │
@@ -57,6 +58,7 @@ Task_1_Chatbot/
 │
 └── README.md # Project documentation
 
+```md
 
 
 ---
@@ -78,9 +80,7 @@ Task_1_Chatbot/
 
 ### Step 1: Clone the repository
 ```bash
-git clone <your-github-repo-link>
-### Step 2: Navigate to the project folder
-
+- git clone <your-github-repo-link>
 cd Task_1_Chatbot
 python -m venv venv
 venv\Scripts\activate
@@ -88,15 +88,23 @@ pip install flask
 python app.py
 http://127.0.0.1:5000/
 
-# Future Improvements
+```md
+
+---
+
+## Future Improvements
 
 Add more rules and better intent detection
 Store chat history in a database
 Improve UI design
 Add NLP or ML-based chatbot logic
 
-# Author
+---
+
+## Author
 
 Gauri
 Third Year Engineering Student
 CodeSoft Internship – Task 1
+
+---
