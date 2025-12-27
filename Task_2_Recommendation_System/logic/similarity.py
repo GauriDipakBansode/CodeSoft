@@ -1,20 +1,18 @@
-#similarity.py
-#calculates similarity between users
-
 from sklearn.metrics.pairwise import cosine_similarity
+import pandas as pd
 
+def compute_similarity(user_item_matrix):
+    """
+    Compute cosine similarity between users
+    """
+    matrix_filled = user_item_matrix.fillna(0)
 
+    similarity = cosine_similarity(matrix_filled.values)
 
-def calculate_user_similarity(user_item_matrix):
+    similarity_df = pd.DataFrame(
+        similarity,
+        index=matrix_filled.index,
+        columns=matrix_filled.index
+    )
 
-    """ Takes user-item matrix and returns user_user similarity matrix"""
-
-    #fill missing ratings with 0
-    user_item_matrix_filled = user_item_matrix_.fillna(0)
-
-    #calculate cosine similarity
-    similarity = cosine_similarity(user_item_matrix_filled)
-
-
-    return similarity
-
+    return similarity_df
