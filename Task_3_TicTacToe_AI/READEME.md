@@ -79,33 +79,33 @@ python app.py
 
 
 ## How to Play
-Click on any empty box to place X
-AI will automatically respond with O
-Game stops when:
-Human wins
-AI wins
-Draw occurs
-Click Reset Game to play again
+- Click on any empty box to place X
+- AI will automatically respond with O
+- Game stops when:
+- Human wins
+- AI wins
+- Draw occurs
+- Click Reset Game to play again
 
 ---
 
 ## Technologies Used
 
-Python
-Flask
-HTML
-CSS
-JavaScript
-Minimax Algorithm
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- Minimax Algorithm
 
 ---
 
 ## Task Information
 
-Task Name: Tic Tac Toe AI
-Task Number: Task 3
-Organization: CodeSoft
-Level: Beginner → Intermediate
+- Task Name: Tic Tac Toe AI
+- Task Number: Task 3
+- Organization: CodeSoft
+- Level: Beginner → Intermediate
 
 ---
 
